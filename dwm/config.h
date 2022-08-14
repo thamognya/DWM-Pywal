@@ -7,22 +7,8 @@ static const int showbar = 1;        /* 0 means no bar */
 static const int topbar = 1;        /* 0 means bottom bar */
 static const char *fonts[] = { "Fira Code:size=18" };
 static const char dmenufont[] = "Fira Code:size=18";
-static const char bg[] = "#161925";
-static const char fg[] = "#F8F8F2";
-static const char cyan[] = "#8BE9FD";
-static const char green[] = "#50FA7B";
-static const char orange[] = "#FFB86C";
-static const char pink[] = "#FF79C6";
-static const char purple[] = "#Bd93F9";
-static const char red[] = "#FF5555";
-static const char yellow[] = "#F1FA8C";
-static const char white[] = "#FFFFFF";
-static const char comment[] = "#6272A4";
-static const char *colors[][3] = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { bg, fg, comment },
-	[SchemeSel]  = { fg, bg, green },
-};
+
+#include "/home/jeff/.cache/wal/colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6" };
